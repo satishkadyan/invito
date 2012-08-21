@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package com.rocketalk.apis.framework.exception;
+
+import com.rocketalk.apis.framework.util.enumeration.ErrorCodesEnum;
+
+/**
+ * @author Admin
+ * 
+ */
+public class RTAPIBusinessException extends RTAPIException {
+
+	/**
+	 * @param errorCode
+	 * @param e
+	 */
+	public RTAPIBusinessException(String errorCode, Exception e) {
+		super(errorCode, e);
+		super.setExceptionType(BUSINESS_EXCEPTION_TYPE);
+	}
+
+	/**
+	 * @param errorCode
+	 */
+	public RTAPIBusinessException(String errorCode) {
+		super(errorCode);
+		super.setExceptionType(BUSINESS_EXCEPTION_TYPE);
+	}
+
+	/**
+	 * @param errorCodeEnum
+	 * @param e
+	 */
+	public RTAPIBusinessException(ErrorCodesEnum errorCodeEnum, Exception e) {
+		super(errorCodeEnum, e);
+		super.setExceptionType(BUSINESS_EXCEPTION_TYPE);
+	}
+
+	/**
+	 * @param errorCodeEnum
+	 */
+	public RTAPIBusinessException(ErrorCodesEnum errorCodeEnum) {
+		super(errorCodeEnum);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1146757635940220423L;
+
+}

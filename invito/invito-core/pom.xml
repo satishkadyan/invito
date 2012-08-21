@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.invito</groupId>
+    <artifactId>invito</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.invito.core</groupId>
+  <artifactId>invito-core</artifactId>
+  <name>core</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.invito.common</groupId>
+  		<artifactId>invito-common</artifactId>
+  		<version>invito-common.0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.invito.framework</groupId>
+  		<artifactId>invito-framework</artifactId>
+  		<version>framework.0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.invito.db</groupId>
+  		<artifactId>invito-db</artifactId>
+  		<version>db0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+</project>

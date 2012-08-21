@@ -1,0 +1,10 @@
+package com.rocketalk.apis.framework.exception;
+
+public class RTAPIAgentException extends RTAPIException
+{
+	public RTAPIAgentException(String errorCode) 
+	{
+		super(errorCode);
+	}
+
+}

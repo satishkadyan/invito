@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/RTDEV/!svn/ver/764/APP/rt-open-apis/trunk/rt-open-apis-framework/src/main/java/com/rocketalk/apis/framework/exception
+END
+NotImplementedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/RTDEV/!svn/ver/764/APP/rt-open-apis/trunk/rt-open-apis-framework/src/main/java/com/rocketalk/apis/framework/exception/NotImplementedException.java
+END
+RTAPISystemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/RTDEV/!svn/ver/764/APP/rt-open-apis/trunk/rt-open-apis-framework/src/main/java/com/rocketalk/apis/framework/exception/RTAPISystemException.java
+END
+IRTAPIException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/RTDEV/!svn/ver/764/APP/rt-open-apis/trunk/rt-open-apis-framework/src/main/java/com/rocketalk/apis/framework/exception/IRTAPIException.java
+END
+RTAPIBusinessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/RTDEV/!svn/ver/764/APP/rt-open-apis/trunk/rt-open-apis-framework/src/main/java/com/rocketalk/apis/framework/exception/RTAPIBusinessException.java
+END
+ExceptionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/RTDEV/!svn/ver/764/APP/rt-open-apis/trunk/rt-open-apis-framework/src/main/java/com/rocketalk/apis/framework/exception/ExceptionUtil.java
+END
+RTAPIAgentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/RTDEV/!svn/ver/764/APP/rt-open-apis/trunk/rt-open-apis-framework/src/main/java/com/rocketalk/apis/framework/exception/RTAPIAgentException.java
+END
+RTAPIException.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/RTDEV/!svn/ver/764/APP/rt-open-apis/trunk/rt-open-apis-framework/src/main/java/com/rocketalk/apis/framework/exception/RTAPIException.java
+END

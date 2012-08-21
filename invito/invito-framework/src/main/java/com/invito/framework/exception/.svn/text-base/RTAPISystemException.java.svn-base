@@ -1,0 +1,51 @@
+/**
+ * 
+ */
+package com.rocketalk.apis.framework.exception;
+
+import com.rocketalk.apis.framework.util.enumeration.ErrorCodesEnum;
+
+/**
+ * @author Admin
+ * 
+ */
+public class RTAPISystemException extends RTAPIException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4197422745681241940L;
+
+	/**
+	 * @param errorCode
+	 * @param e
+	 */
+	public RTAPISystemException(String errorCode, Exception e) {
+		super(errorCode, e);
+		super.setExceptionType(SYSTEM_EXCEPTION_TYPE);
+	}
+
+	/**
+	 * @param errorCode
+	 */
+	public RTAPISystemException(String errorCode) {
+		super(errorCode);
+		super.setExceptionType(SYSTEM_EXCEPTION_TYPE);
+	}
+
+	/**
+	 * @param errorCodeEnum
+	 * @param e
+	 */
+	public RTAPISystemException(ErrorCodesEnum errorCodeEnum, Exception e) {
+		super(errorCodeEnum, e);
+		super.setExceptionType(SYSTEM_EXCEPTION_TYPE);
+	}
+
+	/**
+	 * @param errorCodeEnum
+	 */
+	public RTAPISystemException(ErrorCodesEnum errorCodeEnum) {
+		super(errorCodeEnum);
+	}
+}
